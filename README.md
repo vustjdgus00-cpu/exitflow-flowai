@@ -18,7 +18,7 @@ Run `python3 -m http.server 8000` in this directory, then open http://localhost:
 ## Restore and redeploy
 Restore index.html from the original in originals/ and check its SHA-256.
 Deploy the repository root as static HTML, no framework or build command, to the existing exitflow-flowai Vercel project. Use production target; verify the stable domain afterward.
-GitHub upload and Git integration remain pending a repository visibility decision. No automatic deployment from main is configured yet.
+GitHub repository `vustjdgus00-cpu/exitflow-flowai` is connected to the existing Vercel project. Pushes to `main` automatically create production deployments.
 The accompanying Git bundle can restore the local repository with `git clone EXITFLOW_source.bundle exitflow-restored`.
 
 ## Verification (2026-11-03)
